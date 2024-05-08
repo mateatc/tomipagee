@@ -25,11 +25,18 @@ $(document).ready(function() {
             if(yOffset >= 300){
                 $(".menulogo").css("opacity", "1");
                 $(".mobileMenu").css("padding-left", "8vw");
+                $(".menu").css("-webkit-box-shadow", "0px 7px 9px -8px rgba(0,0,0,0.75)");
+                $(".menu").css("-moz-box-shadow", "0px 7px 9px -8px rgba(0,0,0,0.75)");
+                $(".menu").css("box-shadow", "0px 7px 9px -8px rgba(0,0,0,0.75)");
+                
             }
 
             if(yOffset <= 300){
                 $(".menulogo").css("opacity", "0");
                 $(".mobileMenu").css("padding-left", "2vw");
+                $(".menu").css("-webkit-box-shadow", "0px 0px 0px 0px rgba(0,0,0,0.75)");
+                $(".menu").css("-moz-box-shadow", "0px 0px 0px 0px rgba(0,0,0,0.75)");
+                $(".menu").css("box-shadow", "0px 0px 0px 0px rgba(0,0,0,0.75)");
             }
         })
     });
