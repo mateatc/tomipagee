@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Karbon;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Karbon-Regular.eot");
+    src: url("../fonts/Karbon-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Regular.svg#Karbon-Regular") format("svg"),
+      url("../fonts/Karbon-Regular.ttf") format("truetype"),
+      url("../fonts/Karbon-Regular.woff") format("woff"),
+      url("../fonts/Karbon-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: Karbon-Bold;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Karbon-Bold.eot");
+    src: url("../fonts/Karbon-Bold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Bold.svg#Karbon-Bold") format("svg"),
+      url("../fonts/Karbon-Bold.ttf") format("truetype"),
+      url("../fonts/Karbon-Bold.woff") format("woff"),
+      url("../fonts/Karbon-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: Karbon-Light;
+    font-style: normal;
+    font-weight: light;
+    src: url("../fonts/Karbon-Light.eot");
+    src: url("../fonts/Karbon-Light.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Light.svg#Karbon-Light") format("svg"),
+      url("../fonts/Karbon-Light.ttf") format("truetype"),
+      url("../fonts/Karbon-Light.woff") format("woff"),
+      url("../fonts/Karbon-Light.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: Karbon-Medium;
+    font-style: normal;
+    font-weight: medium;
+    src: url("../fonts/Karbon-Medium.eot");
+    src: url("../fonts/Karbon-Medium.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Medium.svg#Karbon-Medium") format("svg"),
+      url("../fonts/Karbon-Medium.ttf") format("truetype"),
+      url("../fonts/Karbon-Medium.woff") format("woff"),
+      url("../fonts/Karbon-Medium.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: Karbon-Regular;
+    font-style: normal;
+    font-weight: medium;
+    src: url("../fonts/Karbon-Regular.eot");
+    src: url("../fonts/Karbon-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Regular.svg#Karbon-Medium") format("svg"),
+      url("../fonts/Karbon-Regular.ttf") format("truetype"),
+      url("../fonts/Karbon-Regular.woff") format("woff"),
+      url("../fonts/Karbon-Regular.woff2") format("woff2");
+  }
+
+  @media screen and (max-width: 900px) and (orientation: portrait) {
+  
+  }
+  
+  @media screen and (max-height: 900px) and (orientation: landscape) {
+  }
