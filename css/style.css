@@ -1,0 +1,259 @@
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('../fonts/OpenSans-SemiBold.eot');
+  src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-SemiBold.ttf') format('truetype'),
+       url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+       url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+       url('../fonts/OpenSans-Regular.woff') format('woff'),
+       url('../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Medium';
+  src: url('../fonts/OpenSans-Medium.eot');
+  src: url('../fonts/OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Medium.ttf') format('truetype'),
+       url('../fonts/OpenSans-Medium.woff') format('woff'),
+       url('../fonts/OpenSans-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.eot');
+  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Light.ttf') format('truetype'),
+       url('../fonts/OpenSans-Light.woff') format('woff'),
+       url('../fonts/OpenSans-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+       url('../fonts/OpenSans-Bold.woff') format('woff'),
+       url('../fonts/OpenSans-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+  ::-webkit-scrollbar {
+    width: 14px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #bebebe;
+  }
+  
+  body {
+    position: absolute;
+    margin: 0vw;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+    padding-bottom: 2vw;
+      /*overflow:scroll;*/
+  }
+
+  .content{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    opacity: 0;
+    transition-duration: 0.5s;
+    margin-top: 5vw;
+    display: none;
+  }
+
+  .red{
+    color: #e43228;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .bigLogoContainer{
+    width: 50%;
+    left: 42%;
+    padding-top: 2vw;
+    margin-top: 10vw;
+    opacity: 0;
+    transition-duration: 0.5s;
+    position: relative;
+    height: auto;
+  }
+
+  .bigLogo{
+    width: 30%;
+  }
+
+  .menu{
+    width: 100%;
+    height: 3em;
+    position: sticky;
+    top: 0vw;
+    z-index: 100;
+    background-color: white;
+    color: black;
+    line-height: 8vw;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Medium';
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .menuLogo{
+    float: left;
+    top: 0.5em;
+    position: absolute;
+    left: 2vw;
+    transition-duration: 0.2s;
+    opacity: 0;
+    width: 1.5em;
+  }
+
+  .menuitem{
+    margin-right: 4vw;
+  }
+
+  .mobileMenuItem{  
+    width: auto;
+    border: 0vw;
+    height: 3em;
+    line-height: 3em;
+    display:inline-block
+  }
+
+  .szelso{
+    margin-right: 0vw;
+  }
+
+  .placeholder{
+    width: 100%;
+    height: 70vw;
+    float: left;
+  }
+  
+  .egy{
+    background-color: aqua;
+  }
+
+  .ketto{
+    background-color: burlywood;
+  }
+
+  .harom{
+    background-color: chocolate;
+  }
+
+  .navIcon{
+    display: none;
+  }
+
+  .mobileMenu{
+    display: none;
+  }
+
+  .legordulo{
+    width: 100%;
+    position: relative;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+  }
+  
+@media screen and (max-width: 900px) and (orientation: portrait) {
+
+  .navIcon{
+    width: 1.5em;
+    position: absolute;
+    display: block;
+    top: 0.7em;
+    right: 2vw;
+    cursor: pointer;
+  }
+
+  .menuitem{
+    margin-right: 0vw;
+  }
+
+  .mobileMenuItem{
+    width: 100%;
+    float: left;
+    line-height: 2.5em;
+    height: 0vh;
+    border-bottom: 0px;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: 0.7s;
+  }
+
+  .menu{
+    top: 0vw;
+    background-color: white;
+    position: sticky;
+    font-family: 'OpenSans-Medium';
+    width: 100%;
+    line-height: 3em;
+    height: 3em;
+    display: block;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+  }
+
+  .menuLogo{
+    width: 1.7em;
+  }
+
+  .legordulo{
+    background-color: #f4f4f4;
+    width: 100%;
+    font-family: 'OpenSans-Medium';
+    position: relative;
+    top: 3em;
+    float: left;
+    height: auto;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-height: 900px) and (orientation: landscape) {
+
+}
