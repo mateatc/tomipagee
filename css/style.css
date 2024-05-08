@@ -253,7 +253,7 @@
     font-family: "OpenSans-Regular";
   }
   
-@media screen and (max-width: 900px) and (orientation: portrait) {
+  @media only screen and (max-width: 1000px) {
 
   .placeholder{
     height: 70vw;
