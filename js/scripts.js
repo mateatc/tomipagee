@@ -53,6 +53,46 @@ $(document).ready(function() {
 		}
 	});
 
+/*     $(".animatedBox1").bind("webkitAnimationEnd mozAnimationEnd animationend", function(){
+        $(this).removeClass("animated")  
+      })
+      
+      $(".animatedBox1").hover(function(){
+        $(this).addClass("animated");        
+      })
+
+      $(".animatedBox2").bind("webkitAnimationEnd mozAnimationEnd animationend", function(){
+        $(this).removeClass("animated")  
+      })
+      
+      $(".animatedBox2").hover(function(){
+        $(this).addClass("animated");        
+      })
+
+      $(".animatedBox3").bind("webkitAnimationEnd mozAnimationEnd animationend", function(){
+        $(this).removeClass("animated")  
+      })
+      
+      $(".animatedBox3").hover(function(){
+        $(this).addClass("animated");        
+      })
+
+      $(".animatedBox4").bind("webkitAnimationEnd mozAnimationEnd animationend", function(){
+        $(this).removeClass("animated")  
+      })
+      
+      $(".animatedBox4").hover(function(){
+        $(this).addClass("animated");        
+      })
+
+      $(".animatedBox5").bind("webkitAnimationEnd mozAnimationEnd animationend", function(){
+        $(this).removeClass("animated")  
+      })
+      
+      $(".animatedBox5").hover(function(){
+        $(this).addClass("animated");        
+      }) */
+
 });
 
 var isMenuOpen = false;
@@ -73,3 +113,4 @@ function handleMenu(){
     }
 
 }
+

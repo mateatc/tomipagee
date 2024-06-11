@@ -1,8 +1,79 @@
-
-
 .indexLogo{
-    position: absolute;
+    height: 70%;
     top: 20%;
-    right: 30%;
-    width: 30%;
+    position: relative;
+    float: right;
+    right: 5%;
+}
+
+.indexMenuItemBox{
+    width: 40vw;
+    position: relative;
+    top: 5%;
+}
+
+.indexMenuItem{
+    width: 80%;
+    max-height: 7vw;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2vw;
+    margin-left: 10%;
+    border-radius: 0.5vw;
+    text-align: center;
+    line-height: 7vw;
+    animation-play-state:running;
+    transition-duration: 0.5s;
+
+-webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+
+.indexMenuItem:hover{
+    width: 83%;
+    max-height: 9vw;
+    margin-left: 8.5%;
+
+    -webkit-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
+}
+
+#videobg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.animated{
+    animation: floating 1s ease-in-out;
+}
+
+.indexMenuItemText{
+    font-size: 1vw;
+    color: black;
+    font-family: "OpenSans-SemiBold";
+    text-transform: uppercase;
+}
+
+/* @media only screen and (max-width: 1000px) {
+    .indexLogo{
+        width: 10%;
+    }
+} */
+
+
+.floating {  
+    animation-name: floating;
+
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
 }
