@@ -1,24 +1,23 @@
 .indexLogo{
-    height: 70%;
-    top: 20%;
+    height: 90%;
+    top: 10%;
     position: relative;
     float: right;
-    right: 5%;
 }
 
 .indexMenuItemBox{
     width: 40vw;
     position: relative;
-    top: 5%;
+    top: 10%;
 
 }
 
 .indexMenuItem{
-    width: 80%;
+    width: 70%;
     max-height: 7vw;
     background-color:#002452;
     margin-bottom: 3vw;
-    margin-left: 15%;
+    margin-left: 20%;
     border-radius: 0.5vw;
     text-align: center;
     line-height: 7vw;
